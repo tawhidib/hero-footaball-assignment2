@@ -32,8 +32,10 @@ body {
 	color: #18191f;
 	border: 2px solid #1abc9c;
 }
-.btn .btn i {
-	padding-left: 8px;
+
+hr {
+	border: 1px solid #1abc9c;
+	margin: 30px;
 }
 
 p {
@@ -46,6 +48,19 @@ h3 {
 	text-transform: capitalize;
 	color: #18191f;
 	padding: 8px 0;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
 }
 
 /* ****************************
@@ -156,20 +171,6 @@ Fifa styling start from here
 .fifa-news {
 	margin: 50px 0 100px 0;
 }
-.fifa-news .fifa-title {
-	text-align: center;
-	font-size: 48px;
-	font-weight: 700;
-}
-.fifa-news hr {
-	border: 1px solid #1abc9c;
-	margin: 30px;
-}
-.fifa-news .news {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 30px;
-}
 
 .fifa-news .news .news-item {
 	border-radius: 10px;
@@ -184,6 +185,42 @@ Fifa styling start from here
 
 /* ****************************
 fifa styling end here 
+* *****************************/
+/* ****************************
+Rank area styling start from here 
+* *****************************/
+.rank {
+	margin: 50px 0 100px 0;
+}
+.man-rank,
+.woman-rank {
+	flex: 1;
+}
+.man-rank,
+.woman-rank h3 {
+	text-align: center;
+}
+table {
+	margin: auto;
+	text-align: center;
+}
+
+table thead th {
+	color: #6c6c6c;
+	font-size: 16px;
+}
+table tbody tr td:nth-child(1) {
+	width: 20%;
+}
+table td:nth-child(2) {
+	width: 50%;
+}
+table td:nth-child(3) {
+	width: 30%;
+}
+
+/* ****************************
+Rank styling end here 
 * *****************************/
 
 /* ****************************
