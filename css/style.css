@@ -258,3 +258,6 @@ Footer area styling start from here
 	color: #6c6c6c;
 	padding: 5px;
 }
+.footer-area .copyright-alert p {
+	color: #000000;
+}
