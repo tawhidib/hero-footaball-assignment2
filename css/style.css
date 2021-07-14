@@ -24,6 +24,10 @@ body {
 	text-transform: capitalize;
 }
 
+.btn i {
+	padding-left: 8px;
+}
+
 p {
 	font-size: 16px;
 	color: #6c6c6c;
@@ -53,6 +57,7 @@ Header area styling start from here
 }
 .header-content .title-area h1 {
 	font-size: 64px;
+	font-weight: 700;
 	line-height: 80px;
 	color: #ffffff;
 	margin-bottom: 20px;
@@ -92,6 +97,43 @@ Players styling start from here
 .players .player p {
 	margin-bottom: 10px;
 }
+/* ****************************
+Players styling sends here 
+* *****************************/
+
+/* ****************************
+Copa Highlights styling start from here 
+* *****************************/
+.copa-highlights {
+	margin: 50px 0 100px 0;
+}
+.copa-highlights .container {
+	max-width: 1050px;
+	display: flex;
+	align-items: center;
+}
+.copa-content {
+	padding: 60px 0;
+	flex: 1;
+}
+.copa-content h2 {
+	margin-right: 56px;
+	font-size: 48px;
+	font-weight: 700;
+}
+.copa-content p {
+	margin: 10px 110px 20px 0;
+}
+.copa-img {
+	flex: 1;
+}
+.copa-img img {
+	width: 100%;
+}
+
+/* ****************************
+Copa Highlights styling ends here 
+* *****************************/
 
 /* ****************************
 Footer area styling start from here 
