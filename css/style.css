@@ -67,8 +67,15 @@ Header area styling start from here
 	flex: 1;
 }
 
+.header-content .banner-area:hover img {
+	transform: rotateY(180deg);
+	transition: transform 1s ease;
+}
+
 .header-content .banner-area img {
 	width: 100%;
+	transform: rotateY(0deg);
+	transition: transform 1s ease;
 }
 
 /* ****************************
