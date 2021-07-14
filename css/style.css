@@ -35,7 +35,7 @@ body {
 
 hr {
 	border: 1px solid #1abc9c;
-	margin: 30px;
+	margin: 30px auto;
 }
 
 p {
@@ -71,12 +71,12 @@ Header area styling start from here
 	background-color: #2d25a0;
 }
 .header-content {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	margin: 40px 0;
 }
 
 .header-content .title-area {
-	flex: 1;
 	padding-right: 100px;
 }
 .header-content .title-area h1 {
@@ -85,10 +85,6 @@ Header area styling start from here
 	line-height: 80px;
 	color: #ffffff;
 	margin-bottom: 20px;
-}
-
-.header-content .banner-area {
-	flex: 1;
 }
 
 .header-content .banner-area:hover img {
@@ -139,12 +135,12 @@ Copa Highlights styling start from here
 }
 .copa-highlights .container {
 	max-width: 1050px;
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
 }
 .copa-content {
 	padding: 60px 0;
-	flex: 1;
 }
 .copa-content h2 {
 	margin-right: 56px;
@@ -153,9 +149,6 @@ Copa Highlights styling start from here
 }
 .copa-content p {
 	margin: 10px 110px 20px 0;
-}
-.copa-img {
-	flex: 1;
 }
 .copa-img img {
 	width: 100%;
@@ -193,10 +186,6 @@ Rank area styling start from here
 	margin: 50px 0 100px 0;
 }
 .man-rank,
-.woman-rank {
-	flex: 1;
-}
-.man-rank,
 .woman-rank h3 {
 	text-align: center;
 }
@@ -228,7 +217,7 @@ Footer area styling start from here
 * *****************************/
 
 .footer-area {
-	margin: 50px 0;
+	margin: 50px auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
