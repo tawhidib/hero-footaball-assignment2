@@ -24,6 +24,17 @@ body {
 	text-transform: capitalize;
 }
 
+p {
+	font-size: 16px;
+	color: #6c6c6c;
+}
+
+h3 {
+	font-size: 28px;
+	color: #18191f;
+	padding: 8px 0;
+}
+
 /* ****************************
 Header area styling start from here 
 * *****************************/
@@ -38,7 +49,7 @@ Header area styling start from here
 
 .header-content .title-area {
 	flex: 1;
-	padding: 52px;
+	padding-right: 100px;
 }
 .header-content .title-area h1 {
 	font-size: 64px;
@@ -50,9 +61,81 @@ Header area styling start from here
 .header-content .banner-area {
 	flex: 1;
 }
+
 .header-content .banner-area img {
 	width: 100%;
 }
+
 /* ****************************
-Header area styling start from here 
+Header area styling ends here 
 * *****************************/
+
+/* ****************************
+Players styling start from here 
+* *****************************/
+
+.players {
+	padding: 75px 0;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 36px;
+	max-width: 1050px;
+}
+.players .player {
+	width: 330px;
+	padding: 10px;
+	box-shadow: 0 0 20px 15px #efefef;
+}
+.players .player img {
+	width: 100%;
+}
+.players .player p {
+	margin-bottom: 10px;
+}
+
+/* ****************************
+Footer area styling start from here 
+* *****************************/
+
+.footer-area {
+	margin: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-area .footer-logo {
+	width: 480px;
+}
+.footer-area .footer-logo img {
+	width: 100%;
+}
+.footer-area .social-media-links {
+	margin-bottom: 20px;
+}
+.footer-area .social-media-links ul {
+	display: flex;
+}
+
+.footer-area .social-media-links ul li {
+	margin: 0 10px;
+}
+
+.footer-area .social-media-links ul li a {
+	background-color: #e7e7e8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.footer-area .social-media-links ul li a:hover {
+	background-color: #18191f;
+}
+
+.footer-area .social-media-links ul li a i {
+	color: #6c6c6c;
+	padding: 5px;
+}
