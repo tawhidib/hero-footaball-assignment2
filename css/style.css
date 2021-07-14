@@ -43,6 +43,7 @@ p {
 
 h3 {
 	font-size: 28px;
+	text-transform: capitalize;
 	color: #18191f;
 	padding: 8px 0;
 }
@@ -102,7 +103,6 @@ Players styling start from here
 	max-width: 1050px;
 }
 .players .player {
-	width: 330px;
 	padding: 10px;
 	box-shadow: 0 0 20px 15px #efefef;
 }
@@ -148,6 +148,42 @@ Copa Highlights styling start from here
 
 /* ****************************
 Copa Highlights styling ends here 
+* *****************************/
+
+/* ****************************
+Fifa styling start from here 
+* *****************************/
+.fifa-news {
+	margin: 50px 0 100px 0;
+}
+.fifa-news .fifa-title {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 700;
+}
+.fifa-news hr {
+	border: 1px solid #1abc9c;
+	margin: 30px;
+}
+.fifa-news .news {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 30px;
+}
+
+.fifa-news .news .news-item {
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 20px 15px #efefef;
+}
+
+.fifa-news .news img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+/* ****************************
+fifa styling end here 
 * *****************************/
 
 /* ****************************
