@@ -9,3 +9,50 @@
 body {
 	font-family: "Poppins", sans-serif;
 }
+.container {
+	max-width: 1160px;
+	margin: auto;
+}
+
+.btn {
+	border: 2px solid transparent;
+	padding: 10px 24px;
+	background-color: #e02c6d;
+	color: #ffffff;
+	font-size: 16px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+/* ****************************
+Header area styling start from here 
+* *****************************/
+.header-area {
+	padding: 40px 0;
+	background-color: #2d25a0;
+}
+.header-content {
+	display: flex;
+	margin: 40px 0;
+}
+
+.header-content .title-area {
+	flex: 1;
+	padding: 52px;
+}
+.header-content .title-area h1 {
+	font-size: 64px;
+	line-height: 80px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.header-content .banner-area {
+	flex: 1;
+}
+.header-content .banner-area img {
+	width: 100%;
+}
+/* ****************************
+Header area styling start from here 
+* *****************************/
